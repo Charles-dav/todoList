@@ -1,0 +1,54 @@
+   
+ .container-box{
+    margin-right: 10px; 
+}
+
+.textview, .submit-btn{
+    height: 30px;
+    color: #000;
+    font-family: arial;
+    outline: none;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+.textview{
+    border: none;
+    box-sizing: border-box;
+}
+.submit-btn{
+    background-color: rgb(126, 15, 206);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 5px;
+    outline: none;
+    transition: background-color 0.3s;   
+}
+.submit-btn:hover{
+    background-color: rgb(189, 15, 189);
+}
+
+.item-box {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.item-box li {
+    color: #fff;
+    margin-right: 15px;
+    background-color: rgb(77, 77, 77);
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 105%;
+}
+i{
+    color: rgb(177, 14, 14);
+    width: 30px;
+    font-size: 12px; 
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -2px;
+} 
