@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-do list</title>
     <link rel="stylesheet" href="style.css">
  
  
 
 </head>
 <body>
-    <form action="#">
-        <input class="textview" type="text" name="text" placeholder="write new todo.....">
-        <input class="submit-btn" type="submit" value="Add">
-    </form>
-    <div>
-        <ul class="item-box">
-            <li>Go to gym this morning <i class="ion-close-circled"></i></li>
-            <li>Go to gym this morning <i class="ion-close-circled"></i></li>
-            <li>Go to gym this morning <i class="ion-close-circled"></i></li>
-        </ul>
+    <div class="container">
+        <form action="#" id="my-form">
+            <input class="textview" type="text" name="text" placeholder="write new todo....." req>
+            <input class="submit-btn" type="submit" value="Add">
+
+            <div class="msg"></div>
+
+            <ul class="item-box">
+                <li>Go to gym this morning 
+                    <div>x</div>
+                </li> 
+                <li>Go to gym this morning 
+                    <div>x</div>
+                </li> 
+                <li>Go to gym this morning 
+                    <div>x</div>
+                </li> 
+            </ul>
+        </form>
     </div>
+
+    <script src="todo.js"></script>
 </body>
 </html>

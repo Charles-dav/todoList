@@ -1,54 +1,78 @@
-   
- .container-box{
-    margin-right: 10px; 
-}
-
-.textview, .submit-btn{
-    height: 30px;
-    color: #000;
+.container{
+    background-color: #f4f4f4;
+    color: #555;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
     font-family: arial;
-    outline: none;
-    font-size: 12px;
-    padding: 5px 15px;
 }
-
-.textview{
-    border: none;
-    box-sizing: border-box;
-}
-.submit-btn{
-    background-color: rgb(126, 15, 206);
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
-    margin-left: 5px;
-    outline: none;
-    transition: background-color 0.3s;   
-}
-.submit-btn:hover{
-    background-color: rgb(189, 15, 189);
-}
-
 .item-box {
     list-style: none;
-    margin-top: 25px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+.item-box li {
+    padding: 5px 0;
+    background-color: #fff;
+    color: #555;
+    margin: 7px 0;
+    font-size: 70%;
+    height: 20px;
+    padding-left: 7px;
+    vertical-align: middle;
+}
+li:nth-child(2n){
+    background-color: rgb(109, 108, 108);
+    color: #fff;
 }
 
-.item-box li {
-    color: #fff;
-    margin-right: 15px;
-    background-color: rgb(77, 77, 77);
-    font-size: 12px;
-    padding: 10px 10px;
-    margin: 10px 0;
-    width: 105%;
+
+.textview,
+.submit-btn{
+    padding: 7px;
+    margin: 0;
+    border: none;
+    margin-bottom: 8px;
 }
-i{
-    color: rgb(177, 14, 14);
-    width: 30px;
-    font-size: 12px; 
-    float: right;
-    cursor: pointer;
-    vertical-align: middle;
-    margin-top: -2px;
-} 
+.textview{
+    border: none;
+    outline: none;
+}
+
+
+.submit-btn{
+    background-color: purple;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+}
+.item-box div{
+    color: #fff;
+    border-radius: 50%;
+    background-color: #ff0000;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 1px;
+    text-align: center;
+    font-size: 100%;
+}
+
+.error{
+    background-color: #c45454;  
+    border: 2px solid #ff0000;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 70%;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.8s, color 0.8s;
+}
+
